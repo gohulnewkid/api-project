@@ -1,0 +1,90 @@
+body{
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    background: url("https://www.hollywoodreporter.com/wp-content/uploads/2015/12/got-iconic-images-18_2.jpg?w=1024");
+    background-size: cover;
+    background-position: center;
+    color: rgb(249, 255, 240);
+    /* background-color:thistle;   */
+}
+.input{
+    background-image: linear-gradient(to right, #8be2dd24, #8cd5a62e, #aebf6a36, #d89f492b, #f9745b26);
+    box-shadow: 1px 2px 42px 0px rgba(0,0,0,0.8);
+    height: 150px;
+    width: 700px;
+    place-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    padding: 10px; 
+    border-radius: 10px;
+}
+
+.contain1{
+    display:grid;
+    grid-template-rows: auto auto auto auto;
+    align-self: center;
+}
+.header{
+    margin: 0px ;
+    letter-spacing: 3px;
+    font-family: 'Spectral SC', serif;
+    
+}
+.book{
+    margin: 10px;
+    margin-bottom: 5px;
+}
+.view{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+#pad{
+    margin: 5px 45px;
+}
+.head{
+    padding-top: 15px;
+    padding-left: 25px; 
+}
+.contain1{
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    box-shadow: 1px 2px 42px 0px rgba(0,0,0,0.8);
+    background-image: linear-gradient(to right, #8be2dd24, #8cd5a62e, #aebf6a36, #d89f492b, #f9745b26);
+    margin-top: 10px;  
+    border: 1px solid black;
+    border-radius: 15px;
+    font-family: 'M PLUS 1p', sans-serif;
+}
+.com{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding-bottom:10px;
+    padding-left: 30px; 
+    border-bottom: 1px solid rgb(77, 139, 171);
+    box-shadow: -2px -11px 11px -4px rgba(0,0,0,0.1) inset;  
+}
+.info{
+    padding-left: 30px; 
+}
+
+li{
+    list-style: none;
+    gap:15px;
+    margin-top: 0px;
+    margin-left: 30px;
+    padding-left: 5px;
+}
+.characters{
+    margin-top: 0px;
+    padding-left: 30px; 
+}
+.explain{
+    font-weight: bold;
+}
